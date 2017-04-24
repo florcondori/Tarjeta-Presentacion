@@ -1,1 +1,6 @@
-main
+.contenedor{
+	width: 500px;
+	height: 450px;
+	background-image: url(../img/foto-laboratoria.pg),
+	linear-gradient(-240deg,rgba(41,38,38,0),rgba(41,38,38,1), rgba(41,38,38,1)100%);;
+}
