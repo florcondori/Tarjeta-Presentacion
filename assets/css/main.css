@@ -1,6 +1,38 @@
+body{
+	font-family: 'Open Sans', sans-serif;;
+}
 .contenedor{
+	position: relative;
 	width: 500px;
 	height: 450px;
+	color: white;
 	background-image: url(../img/foto-laboratoria.pg),
-	linear-gradient(-240deg,rgba(41,38,38,0),rgba(41,38,38,1), rgba(41,38,38,1)100%);;
+	linear-gradient(-247deg,rgba(41,38,38,0),rgba(41,38,38,0)10%,rgba(41,38,38,1) 40%, rgba(41,38,38,1)100%);
+}
+p{
+	margin: 5px;
+}
+img{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 50px;
+	height: 50px;
+}
+.contenedor-datos{
+	position: absolute;
+	display: inline-block;
+	top: 50px;
+	width: 200px;
+	right: 30px;
+} 
+.contenedor-datos p{
+	color: #FFBF00;
+}
+.datos-personales{
+	position: absolute;
+	bottom: 80px;
+	right: 30px;
+	display: inline-block;
+	font-size: 12px;
 }
